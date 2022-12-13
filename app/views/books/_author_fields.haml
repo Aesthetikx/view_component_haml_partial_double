@@ -1,0 +1,4 @@
+%div
+  = form.fields_for :author, Author.new do |author_form|
+    = author_form.label :name, style: "display: block"
+    = author_form.text_field :name
