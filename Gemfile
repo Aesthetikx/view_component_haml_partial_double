@@ -73,4 +73,4 @@ end
 
 gem 'view_component'
 
-gem 'hamlit-rails'
+gem 'haml-rails'
