@@ -72,3 +72,5 @@ group :test do
 end
 
 gem 'view_component'
+
+gem 'hamlit-rails'
