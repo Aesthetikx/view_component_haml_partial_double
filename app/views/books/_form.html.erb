@@ -16,10 +16,11 @@
     <%= form.text_field :title %>
   </div>
 
-  <div>
-    <%= form.label :author_id, style: "display: block" %>
-    <%= form.text_field :author_id %>
-  </div>
+  <h4>Author</h4>
+
+  <%= render partial: 'author_fields', locals: { form: form } %>
+
+  <br/>
 
   <div>
     <%= form.submit %>
